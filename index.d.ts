@@ -1,4 +1,4 @@
-declare module "@walletconnect/web3-provider";
+declare module "@walletconnect/ethereum-provider";
 declare module "*.svg" {
   export default "" as string;
 }

@@ -28,6 +28,8 @@ import CoinbaseWalletLogo from "../logos/coinbasewallet.svg";
 import WalletLinkLogo from "../logos/walletlink.svg";
 // @ts-ignore
 import SequenceLogo from "../logos/sequence.svg";
+// @ts-ignore
+import WalletConnectV2Logo from "./logos/walletconnectv2.png";
 
 import { IProviderInfo } from "../../helpers";
 
@@ -181,4 +183,15 @@ export const SEQUENCE: IProviderInfo = {
   logo: SequenceLogo,
   type: "web",
   check: "isSequenceWeb"
+};
+
+export const WALLETCONNECT: IProviderInfo = {
+  id: "walletconnectv2",
+  name: "WalletConnectV2",
+  logo: WalletConnectV2Logo,
+  type: "qrcode",
+  check: "isWalletConnectV2",
+  package: {
+    required: [["infuraId", "projectId"]]
+  }
 };

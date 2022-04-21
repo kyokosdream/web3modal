@@ -14,10 +14,12 @@ import frame from "./frame";
 import binancechainwallet from "./binancechainwallet";
 import coinbasewallet, { walletlink } from "./coinbasewallet";
 import sequence from "./sequence";
+import walletconnectv2 from "./walletconnectv2";
 
 export {
   injected,
   walletconnect,
+  walletconnectv2,
   boltx,
   portis,
   torus,
