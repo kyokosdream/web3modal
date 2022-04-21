@@ -31,7 +31,7 @@ const ConnectToWalletConnect = (
       qrcodeModalOptions = opts.qrcodeModalOptions || undefined;
     }
 
-    const provider = new WalletConnectProvider.({
+    const provider = new WalletConnectProvider({
       bridge,
       qrcode,
       infuraId,
