@@ -11,7 +11,7 @@ const ConnectToWalletConnectV2 = async (
   WalletConnectV2Provider: any,
   opts: IWalletConnectV2Options
 ) => {
-  const provider = new WalletConnectV2Provider(opts.apiKey);
+  const provider = new WalletConnectV2Provider();
 
   await provider.enable();
 
