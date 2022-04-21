@@ -29,7 +29,7 @@ import WalletLinkLogo from "../logos/walletlink.svg";
 // @ts-ignore
 import SequenceLogo from "../logos/sequence.svg";
 // @ts-ignore
-import WalletConnectV2Logo from "./logos/walletconnectv2.svg";
+import WalletConnectV2Logo from "../logos/walletconnectv2.svg";
 
 import { IProviderInfo } from "../../helpers";
 

@@ -1,7 +1,5 @@
 import { IAbstractConnectorOptions, getChainId } from "../../helpers";
 
-import { IAbstractConnectorOptions } from "../../helpers";
-
 interface IWalletConnectV2Options extends IAbstractConnectorOptions {
   projectId: string;
   infuraId: string;
