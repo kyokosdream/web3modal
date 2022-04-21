@@ -14,6 +14,7 @@ const ConnectToWalletConnect = (
   opts: IWalletConnectConnectorOptions
 ) => {
   return new Promise(async (resolve, reject) => {
+    console.log("Calling default Web3Modal ConnectToWalletConnect");
     let bridge = "https://bridge.walletconnect.org";
     let qrcode = true;
     let infuraId = "";
